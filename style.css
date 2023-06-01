@@ -5,11 +5,21 @@
 }
 
 /* generics */
+
+.txt-green {
+    color: rgb(44, 166, 60);
+}
+
+.txt-red {
+    color: red;
+}
+
 body {
     height: 100vh;
     background-color: black;
     padding-top: 5px;
     padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 
@@ -79,6 +89,49 @@ a {
 /* footer */
 
 footer {
-    height: 80px;
+    height: 60px;
     background-color: #222222;
+}
+
+.footer-nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+
+footer .icon {
+    font-size: 15px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+
+
+}
+
+.fa-angle-up {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.sub {
+    text-align: center;
+    font-size: 10px;
+}
+
+.icon-box {
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.end-meet {
+    background-color: #4A4A4A;
+
+    padding: 23px 8px;
+    font-size: 12px;
 }
