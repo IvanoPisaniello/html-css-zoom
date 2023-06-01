@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body {
+    height: 100vh;
+    background-color: black;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* header */
+
+header {
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.txt-white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.view-nav,
+.arrow {
+    background-color: #4A4A4A;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
