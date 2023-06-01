@@ -10,10 +10,18 @@ body {
     background-color: black;
     padding-top: 5px;
     padding-right: 5px;
+
+
+
 }
 
 .d-flex {
     display: flex;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -36,4 +44,41 @@ a {
     background-color: #4A4A4A;
     padding: 2px 3px;
     border-radius: 5px;
+}
+
+/* main */
+
+
+
+.cards {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+    height: 80vh;
+    overflow: auto;
+    width: auto;
+    margin-left: 50px;
+}
+
+
+
+.card {
+    width: 250px;
+    height: 150px;
+    position: relative;
+
+}
+
+.name {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.30);
+    bottom: 10px;
+
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    background-color: #222222;
 }
